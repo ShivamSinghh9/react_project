@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body main {
+  height: 100vh;
+  width: 100%;
+  background-image: url("/macwallpaper.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.dock {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(162, 162, 162, 0.539);
+  padding: 0.5rem 1rem;
+  border-radius: 0.75rem;
+  backdrop-filter: blur(5px);
+}
+.icon {
+  padding: 0.65rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1/1;
+  color: white;
+  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.icon:hover {
+  transform: scale(1.25) translateY(-20%);
+}
+.icon:hover + .icon,
+.icon:has(+ .icon:hover) {
+  transform: scale(1.1) translateY(-10%);
+}
+.icon.github {
+  background-color: black;
+}
+.note {
+  background: linear-gradient(to bottom, rgb(255, 176, 80), rgb(255, 140, 0));
+}
+.pdf {
+  background: linear-gradient(to bottom, rgb(255, 86, 123), rgb(255, 25, 75));
+}
+.calender {
+  background: linear-gradient(to bottom, rgb(91, 91, 255), rgb(39, 39, 255));
+}
+.spotify {
+  background: linear-gradient(to bottom, rgb(78, 253, 78), rgb(29, 255, 29));
+}
+.mail {
+  background: linear-gradient(to bottom, rgb(103, 103, 255), rgb(74, 74, 248));
+}
+.link {
+  background: linear-gradient(to bottom, rgb(255, 106, 255), rgb(255, 30, 255));
+}
+.cli {
+  background: linear-gradient(to bottom, rgb(54, 52, 52), rgb(35, 35, 35));
+}
