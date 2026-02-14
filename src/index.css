@@ -8,12 +8,14 @@ body {
   height: 100%;
   width: 100%;
 }
-body main {
+main {
   height: 100vh;
   width: 100%;
   background-image: url("/macwallpaper.jpg");
   background-position: center;
   background-size: cover;
+  position: relative;
+  overflow: hidden;
 }
 .dock {
   display: flex;
@@ -26,6 +28,7 @@ body main {
   padding: 0.5rem 1rem;
   border-radius: 0.75rem;
   backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.66);
 }
 .icon {
   padding: 0.65rem;
@@ -34,6 +37,7 @@ body main {
   align-items: center;
   justify-content: center;
   aspect-ratio: 1/1;
+
   color: white;
   transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
@@ -67,4 +71,69 @@ body main {
 }
 .cli {
   background: linear-gradient(to bottom, rgb(54, 52, 52), rgb(35, 35, 35));
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: sans-serif;
+  color: white;
+  background-color: rgba(50, 50, 50, 0.685);
+  backdrop-filter: blur(5px);
+  padding: 5px 10px;
+}
+.left {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.right{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.fullwindow{
+  height: 350px;
+  width: 500px;
+  font-family: sans-serif;
+  color: white;
+  background-color: rgb(24, 24, 24);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid rgba(161, 161, 161, 0.486);
+  background-color: rgb(41, 41, 41);
+}
+.dots{
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.50rem 1rem;
+}
+.dot{
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+.red{
+  background-color: rgb(255, 55, 55);
+}
+.yellow{
+  background-color: rgb(255, 255, 57);
+}
+.green{
+  background-color: rgb(47, 255, 47);
+}
+.title{
+  font-weight: 600;
+  font-size: 13px;
+  color: rgb(171, 171, 171);
+}
+.main-content{
+  padding: 0.50rem 1rem;
 }
