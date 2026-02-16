@@ -94,8 +94,7 @@ nav {
   align-items: center;
 }
 .fullwindow{
-  height: 350px;
-  width: 500px;
+  height: 100%;
   font-family: sans-serif;
   color: white;
   background-color: rgb(24, 24, 24);
@@ -122,6 +121,7 @@ nav {
 }
 .red{
   background-color: rgb(255, 55, 55);
+  cursor: pointer;
 }
 .yellow{
   background-color: rgb(255, 255, 57);
@@ -135,5 +135,110 @@ nav {
   color: rgb(171, 171, 171);
 }
 .main-content{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   padding: 0.50rem 1rem;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  overflow: auto;
+  height: 100%;
+  padding: 1rem;
+  padding-bottom: 5rem;
+}
+.card{
+  flex-grow: 1;
+  flex-basis: 20rem;
+  max-width: 30rem;
+  padding-inline: 1rem;
+  padding-block: 0.75rem;
+  background-color: #3d3d3d;
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-family: sans-serif;
+  color: white;
+}
+
+.card .description{
+  font-weight: 500;
+  word-spacing: 1.1em;
+  line-height: 1.2rem;
+}
+.card img{
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.tags{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.tag{
+  background-color: #5c705b;
+  width: fit-content;
+  padding: 0.75rem 1rem;
+  border-radius: 1rem;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.urls{
+  display: flex;
+  gap: 1rem;
+}
+.urls a{
+  color: white;
+}
+
+.note-window{
+  height: 100%;
+  padding: 1rem;
+  overflow: auto;
+  padding-bottom: 10rem;
+
+  font-size: 1.1rem;
+}
+.note-window pre{
+  background-color: transparent !important;
+}
+*::-webkit-scrollbar{
+  width: 5px;
+}
+*::-webkit-scrollbar-thumb{
+  background-color: rgb(74, 74, 74);
+  border-radius: 5px;
+}
+.resume-window{
+  height: 100%;
+  overflow: auto;
+}
+.resume-window iframe{
+  width: 100%;
+  height: 100%;
+
+}
+.spotify-window{
+  height: 100%;
+  width: 100%;
+  
+}
+.spotify-window iframe{
+  height: 100vh;
+  width: 100%;
+  border: none;
+  padding-bottom: 15rem;
+}
+.cli-window{
+  height: 100%;
+  padding-bottom: 5rem;
+}
+div[name="react-console-emulator"]{
+  height: 100%;
 }

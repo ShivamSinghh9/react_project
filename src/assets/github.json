@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1555099962-4199c345e5dd",
+    "title": "Border Animation UI",
+    "description": "A creative animated border effect project showcasing smooth CSS animations and modern UI interaction design.",
+    "tags": ["HTML", "CSS", "Animation", "Frontend"],
+    "repoLink": "https://github.com/ShivamSinghh9/BorderAnimation",
+    "demoLink": "https://shivamsinghh9.github.io/BorderAnimation/"
+  },
+
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1515169067868-5387ec356754",
+    "title": "Inter Batch Competition Website",
+    "description": "A responsive event website built for managing and showcasing inter-batch competitions with structured layouts, smooth animations, and modern UI styling.",
+    "tags": ["HTML", "CSS", "JavaScript", "Responsive Design"],
+    "repoLink": "https://github.com/ShivamSinghh9/Inter-Batch-Competition",
+    "demoLink": "https://shivamsinghh9.github.io/Inter-Batch-Competition/"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+    "title": "Activity Dashboard",
+    "description": "A modern activity tracking dashboard featuring interactive UI components, structured layout design, and responsive data visualization for monitoring daily tasks and performance metrics.",
+    "tags": ["HTML", "CSS", "JavaScript", "Dashboard UI"],
+    "repoLink": "https://github.com/ShivamSinghh9/Acitvity_DashBoard",
+    "demoLink": "https://shivamsinghh9.github.io/Acitvity_DashBoard/"
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7",
+    "title": "Creative Animation Showcase",
+    "description": "A visually engaging animation project demonstrating advanced CSS transitions, keyframe animations, and interactive UI effects to enhance modern web experiences.",
+    "tags": ["HTML", "CSS", "Animations", "UI Effects"],
+    "repoLink": "https://github.com/ShivamSinghh9/Animation",
+    "demoLink": "https://shivamsinghh9.github.io/Animation/"
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4",
+    "title": "Cursor Animation Effects",
+    "description": "An interactive cursor animation project featuring custom pointer effects, smooth motion tracking, and dynamic UI responses to enhance user engagement and modern web aesthetics.",
+    "tags": ["HTML", "CSS", "JavaScript", "UI Animation"],
+    "repoLink": "https://github.com/ShivamSinghh9/Cursor-Animation",
+    "demoLink": "https://shivamsinghh9.github.io/Cursor-Animation/"
+  },
+  {
+    "id": 6,
+    "image": "https://images.unsplash.com/photo-1521334884684-d80222895322",
+    "title": "Clothing E-Commerce Website",
+    "description": "A modern and responsive clothing e-commerce frontend built using React and Tailwind CSS, featuring reusable components, dynamic product rendering, and utility-first styling to deliver a clean, scalable, and real-world online shopping interface.",
+    "tags": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript",
+      "Responsive Design",
+      "Component-Based Architecture"
+    ],
+    "repoLink": "https://github.com/ShivamSinghh9/ClothWebsite",
+    "demoLink": "https://shivamsinghh9.github.io/ClothWebsite/"
+  }
+]

@@ -1,12 +1,19 @@
 import { Rnd } from 'react-rnd'
 
-const Macwindow = ({children}) => {
+const Macwindow = ({children, windowName, setWindowsState}) => {
   return (
-    <Rnd>
+    <Rnd 
+    default={{
+        width:"40vw",
+        height:"50vh",
+        x:300,
+        y:400
+    }}
+    >
         <div className="fullwindow">
             <div className="nav">
                 <div className="dots">
-                    <div className="red dot"></div>
+                    <div onClick={()=>setWindowsState(state =>({...state, [windowName]: false}))} className="red dot"></div>
                     <div className="yellow dot"></div>
                     <div className="green dot"></div>
                 </div>
