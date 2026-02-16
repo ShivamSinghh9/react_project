@@ -1,16 +1,189 @@
-# React + Vite
+🖥 Macfolio OS – macOS Inspired Web Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Macfolio OS is a macOS-inspired interactive web desktop portfolio built using React.
+It recreates the macOS experience in the browser with draggable windows, a dock system, and interactive portfolio tools.
 
-Currently, two official plugins are available:
+✨ Features
+🖱 Draggable & Resizable Windows
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Built using react-rnd
 
-## React Compiler
+Independent window state management
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Close, resize, and reposition functionality
 
-## Expanding the ESLint configuration
+🧭 macOS-Style Dock
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Animated hover effects
+
+Open/close windows dynamically
+
+External links support
+
+🐙 GitHub Projects Window
+
+Dynamically renders projects from github.json
+
+Project cards with:
+
+Image
+
+Description
+
+Tech tags
+
+Repository link
+
+Live demo link
+
+🎵 Spotify Integration
+
+Embedded Spotify playlist
+
+Styled inside custom window container
+
+📄 Resume Viewer
+
+Displays PDF directly inside iframe
+
+📝 Notes Window
+
+Loads markdown file dynamically
+
+Syntax highlighting using react-syntax-highlighter
+
+💻 Interactive CLI Terminal
+
+Built using react-console-emulator
+
+Custom commands:
+
+about
+
+projects
+
+skills
+
+contact
+
+experience
+
+education
+
+echo
+
+help
+
+clear
+
+history
+
+🛠 Tech Stack
+Frontend
+
+React
+
+JavaScript (ES6+)
+
+CSS3
+
+Libraries Used
+
+react-rnd (Draggable windows)
+
+react-console-emulator (Terminal)
+
+react-markdown
+
+react-syntax-highlighter
+
+@remixicon/react
+
+🧠 Architecture
+
+State-based window control using useState
+
+Component-based window system
+
+JSON-driven project rendering
+
+Modular folder structure
+
+📂 Project Structure
+src/
+ ├── components/
+ │    ├── Dock.jsx
+ │    ├── Navbar.jsx
+ │    └── windows/
+ │         ├── Macwindow.jsx
+ │         ├── Github.jsx
+ │         ├── Spotify.jsx
+ │         ├── Resume.jsx
+ │         ├── Note.jsx
+ │         └── Cli.jsx
+ ├── assets/
+ │    └── github.json
+
+🚀 How To Run Locally
+git clone https://github.com/yourusername/project-name
+cd project-name
+npm install
+npm run dev
+
+🎯 Purpose
+
+This project demonstrates:
+
+Advanced React component architecture
+
+UI/UX recreation of desktop systems
+
+State management for window control
+
+Integration of external APIs & embeds
+
+Dynamic data rendering
+
+Terminal-style interaction
+
+🔮 Future Improvements
+
+Window minimize animation
+
+Window stacking (z-index management)
+
+Dark/light mode toggle
+
+Authentication system
+
+Backend integration
+
+File explorer simulation
+
+Custom command parser in CLI
+
+📸 Preview
+
+(Add screenshots here)
+
+👨‍💻 Author
+
+Shivam Singh
+Full-Stack Developer
+
+
+This project shows:
+
+UI creativity
+
+React architecture skills
+
+State management understanding
+
+Third-party library integration
+
+JSON-driven rendering
+
+Practical frontend engineering
+
+This is above-average portfolio quality.
